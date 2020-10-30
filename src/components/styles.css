@@ -1,0 +1,40 @@
+.container-drag{
+    position: relative;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    background: gray;
+}
+
+.wip {
+    height: 100%;
+    width: 10%;
+    background: lightgrey;
+    display: inline-table;
+    margin-right: 80%;
+}
+
+.wip .task-header, .droppable .task-header {
+    background: deepskyblue;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.droppable {
+    height: 100%;
+    width: 10%;
+    background: darkgrey;
+    display: inline-table;
+}
+
+.draggable {
+    width: 80%;
+    margin: 15px auto 0px auto;
+    height: 100px;
+}
